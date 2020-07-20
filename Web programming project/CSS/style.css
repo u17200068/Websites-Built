@@ -1,0 +1,468 @@
+body 
+{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.container
+{
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+p
+{
+	font-size: 18px;
+}
+
+dd
+{
+	text-align: justify;
+	border-bottom: dashed 2px orange;
+	border-top: dashed 2px orange;
+}
+
+h3
+{
+	font-size: 20px;
+	border-bottom: solid 2px orange;
+	margin-right: 0px;
+}
+
+h1
+{
+	font-size: 36px;
+}
+
+ul 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.button_1
+{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+.dark
+{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header
+{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a 
+{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li 
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+	float: left;
+}
+
+header #branding h1 
+{
+	margin: 0;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a 
+{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover
+{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+form
+{
+	width: 150px; 
+}
+
+#secondshowcase
+{
+	min-height: 400px;
+	background:url('../Images/running.jpg') no-repeat 0 -200px;
+	text-align: center;
+	color: blue;
+}
+
+#thirdshowcase
+{
+	min-height: 400px;
+	background:url('../Images/mohammedali.jpg') no-repeat -200px -200px;
+	text-align: center;
+	color: blue;
+}
+
+#thirdshowcase h1 
+{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	color: #e8491d;
+}
+
+#thirdshowcase p
+{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #e8491d;
+}
+
+#secondshowcase h1 
+{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	color: #e8491d;
+}
+
+#secondshowcase p
+{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #e8491d;
+}
+
+#showcase
+{
+	min-height: 400px;
+	background:url('../Images/showcase.jpg') no-repeat -300px -400px;
+	text-align: center;
+	color: blue;
+}
+
+#showcase h1 
+{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	color: #e8491d;
+}
+
+#showcase p
+{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #e8491d;
+}
+
+#newsletter
+{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#newsletter h1
+{
+	float: left;
+}
+
+#newsletter form
+{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]
+{
+	width: 100%;
+	padding: 4px;
+	height: 25px;
+	width: 350px;
+
+}
+
+#boxes
+{
+	margin-top: 20px;
+}
+
+#boxes .box
+{
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+
+#boxes .box img
+{
+	width: 90px;
+	height: 120px;
+}
+
+aside #sidebar
+{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+aside #sidebar .quote input, aside #sidebar .quote textarea
+{
+	width: 90%;
+	padding: 5px;
+}
+
+article #main-col
+{
+	float: left;
+	width: 100%;
+}
+
+ul #services li
+{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+}
+
+footer
+{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
+	
+header
+{
+	padding-bottom: 20px;
+}
+
+#showcase h1
+{
+	margin-top: 40px;
+}
+#newsletter button, .quote button
+{
+	display: block;
+	width: 100%;
+}
+#newsletter form input[type="email"], .quote input, .quote textarea
+{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.holders
+{
+	padding-left: 8px;
+	margin-top: 1%;
+	padding-top: 2%;
+	width: 170px;
+	margin-left: 30px;
+	height: 200px;
+	border: solid 2px #35424a;
+	float: left;
+	border-radius: 20px;
+	display: inline-block;
+	padding-bottom: 50px;
+	border-top: none;
+	background-color: #35424a;
+}
+.picture
+{
+	border: solid 2px #35424a;
+	height: 150px;
+	width: 91%;
+	border-radius: 10px 10px 0px 0px;
+	max-height: 100px;
+	max-width: 100%;
+	background: white;
+}
+.wins
+{
+	float: left;
+	border: solid 1px #35424a;
+	width: 30%;
+	height: 53px;
+	background-color: #A7FF47;
+	border-radius: 0px 0px 0px 10px;
+}
+.losses
+{
+	float: left;
+	border: solid 1px #35424a;
+	width: 30%;
+	height: 53px;
+	background-color: #FF4E46;
+	border-radius: 0px 0px 0px 0px;
+	border-right: solid 2.3px #35424a;
+}
+.ties
+{
+	float: left;
+	border-top: solid 1px #35424a;
+	width: 30%;
+	height: 53px;
+	background-color: #38A2FF;
+	border-radius: 0px 0px 10px 0px;
+}
+.contains
+{
+	height: 100%;
+	width: 100%;
+	margin-top: 15px; 
+	background-color: #35424a;	
+	margin-left: 0px;
+}
+
+#scores
+{
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.name
+{
+	width: 100%;
+	height: 50px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	display: inline-block;
+	clear: left;
+	float: left;
+}
+
+.name a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.name a:hover
+{
+	color: rgba(255,255,255,0.4);
+	text-decoration: none;
+}
+
+dt
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+dd
+{
+	font-family: monospace;
+}
+
+h1.pagetitle
+{
+	font-size: 25px;
+}
+
+.nextMatch
+{
+	width: 98%;
+	border-radius: 20px;
+	background-color: #35424a;
+	height: 50px;
+	margin-left: 0%;
+	font-size: 1.25em;
+	color: white;
+}
+
+#challenger
+{
+	float: right;
+	padding-right: 10px;
+	color: white;
+	padding-top: 10px;
+}
+
+#challengee 
+{
+	float: left;
+	text-indent: 10px;
+	color: white;
+	padding-top: 10px;
+}
+
+#versus
+{
+	color: white;
+	font-size: 30px;
+}
+
+input#daysLeft
+{
+	width: 70px;
+	text-align: center;
+	background-color: #35424a;
+	color: white;
+	font-size: 25px;
+}
+
+input#hrsLeft
+{
+	width: 70px;
+	text-align: center;
+	background-color: #35424a;
+	color: white;
+	font-size: 25px;
+}
+
+input#minsLeft
+{
+	width: 70px;
+	text-align: center;
+	background-color: #35424a;
+	color: white;
+	font-size: 25px;
+}
+
+h3#video
+{
+	text-transform: uppercase;
+}

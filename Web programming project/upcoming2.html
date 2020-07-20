@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name= "viewport" content="width=device-width">
+	<meta name="description" content="Greatest unbeaten records">
+	<meta name="author" content="Madyan Omar">
+	<meta name="keywords" content="Greatest records, undefeated fighters, boxing, mma, golf, baseball, e-sports">
+	<title> Greatest Records | Upcoming </title>
+	<link rel="stylesheet" href="./css/style.css">
+   <script src="Javascript/functions.js" type="text/javascript"></script>
+   		<script>
+
+   		function countdown()
+   			{
+   				var today = new Date();
+            	var days = calcDays(today,"December ", "22, ","2019 ", "05:00:00");
+            	document.getElementById("daysLeft").value = Math.floor(days) + " D";
+
+            	var hours = (days - Math.floor(days)) * 24;
+            	document.getElementById("hrsLeft").value= Math.floor(hours) + " H";
+
+            	var minutes = (hours - Math.floor(hours)) * 60;
+            	document.getElementById("minsLeft").value = Math.floor(minutes) + " M";
+            }
+
+        </script>
+</head>
+	<body onload="countdown()">
+		<header>
+			<div class="container">
+				<hgroup id="branding">
+					<h1><span class="highlight"> Greatest </span> Records </h1>
+				</hgroup>
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="combat.html">Combat</a></li>
+						<li><a href="streaks.html">Streaks</a></li>
+						<li class="current"><a href="upcoming.html">Upcoming </a></li>
+                  <li><a href="info.html">Info</a></li>
+               </ul>
+		</header>
+		<section id="secondshowcase">
+			<article class="container">
+				<h1> Greatest Records </h1>
+				<p> You will be able to find the greatest feats achieved by athletes from various disciplines such as: Boxing, Golf, Baseball, MMA etc. </p>
+			</article>
+		</section>
+
+		<section id="newsletter">
+			<article class="container">
+				<h1> Wanna learn more? </h1>
+				<form action="mailto:madoo88@outlook.com?cc=Event&subject=Event&body=I%20would%20like%20to%20ask%20about%20this%20event." method="post">
+					<input id="inputEmail" type="email" placeholder="Enter Email...">
+					<button id="sendEmail" type="submit" class="button_1" value="send">Submit</button> 
+				</form>
+			</article>
+			</section>
+			<section id="boxes"> 
+				<article class="container">
+				  <div class="box">
+               <center>
+                  <div class="countdown">
+                     <input id="daysLeft" name="daysLeft"  readonly />
+                     <input id="hrsLeft" name="hrsLeft"  readonly /> 
+                     <input id="minsLeft" name="minsLeft"  readonly /> 
+                  </div>
+               </center>
+                  <br>
+                  <div class="nextMatch">
+                     <div id="challenger">
+                        Tony Harrison
+                     </div>
+                     <div id="challengee">
+                        Jermell Charlo
+                     </div>
+                     <div id="versus">
+                     	<center>VS</center>
+                     </div>
+                  </div>
+                  <br>
+                     <div class="nextMatch">
+                     <div id="challenger">
+                        Guillermo Rigondeaux 
+                     </div>
+                     <div id="challengee">
+                        Liborio Solis
+                     </div>
+                     <div id="versus">
+                     	<center>VS</center>
+                     </div>
+                  </div>
+                  <br>
+                  <h3>About the Event</h3>
+                  <p>This Event will take place on December 22nd 2019 in the Toyota Arena in Ontario, California. The event will be covered by FOX. Tony Harrison and Jermell Charlo will be competing for the WBC Super Welterweight Title, Rigondeaux will move down to bantamweight for the first time in his career to face Liborio Solis for a vacant WBA World Bantamweight Championship.</p>
+					</div>
+               <center><img src="Images/harrisonvscharlo.jpg" width="400px" height="200px"></center>
+               <br>
+               <center>
+               <a href="upcoming.html"><img id="arrowl" src="Images/arrowl.jpg"></a>
+               <a href="upcoming3.html"><img id="arrowr" src="Images/arrowr.jpg"></a></center>
+				</article>
+		</section>
+		<footer>
+			<p> Website done by: Madyan Omar | Copyright &copy; 2019 </p>
+		</footer>
+	</body>
+
+</html>
